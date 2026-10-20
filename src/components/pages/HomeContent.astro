@@ -15,31 +15,31 @@ const t = useTranslations(lang);
 <section class="hero-bg pt-28 pb-16 md:pt-36 md:pb-24">
   <div class="max-w-5xl mx-auto px-6">
     <!-- Announcement Banner -->
-    <div class="mb-8 p-4 bg-gradient-to-r from-purple-950/50 via-blue-950/40 to-slate-900/50 border border-purple-500/30 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-left">
+    <div class="mb-8 p-4 bg-blue-950/40 border border-blue-900/30 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-left">
       <div class="flex items-start gap-x-3">
-        <div class="w-8 h-8 rounded-lg bg-purple-600/10 text-purple-400 flex items-center justify-center shrink-0 border border-purple-500/20">
+        <div class="w-8 h-8 rounded-lg bg-blue-600/10 text-blue-400 flex items-center justify-center shrink-0 border border-blue-500/10">
           <i class="fa-solid fa-bullhorn text-sm animate-pulse"></i>
         </div>
         <div>
-          <span class="text-xs text-purple-400 font-semibold uppercase tracking-wider block">
-            {lang === 'en' ? 'Historic Milestone' : lang === 'zh-TW' ? '歷史時刻 · 重磅官宣' : '历史时刻 · 重磅官宣'}
+          <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider block">
+            {lang === 'en' ? 'Announcement' : lang === 'zh-TW' ? '重磅公告' : '重磅公告'}
           </span>
           <span class="text-sm text-slate-200 font-medium block mt-0.5">
             {lang === 'en' 
-              ? 'NACUAA President Sunny Chen Officially Announces Founding of San Francisco Chapter under NorCal Chapter'
+              ? 'Four NACUAA Chapters (NorCal, SV, NC, DC) Form Sister Chapter Alliance & Partner with ZJUAANC'
               : lang === 'zh-TW'
-              ? '【重磅官宣】陳崢主席宣布北美高校聯盟北加州舊金山分會正式成立，隸屬北加州分會統轄'
-              : '【重磅官宣】陈峥主席宣布北美高校联盟北加州旧金山分会正式成立，隶属北加州分会统辖'}
+              ? '【重大新聞】北美高校聯盟四分會結為姊妹分會，並與浙江大學北卡羅來納校友會建立戰略合作'
+              : '【重大新闻】北美高校联盟四分会结为姊妹分会，并与浙江大学北卡罗来纳校友会建立战略合作'}
           </span>
         </div>
       </div>
       <a href={lang === 'en' 
-        ? '/en/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/' 
+        ? '/en/posts/2026-09-12-four-chapters-sisterhood-and-zju-strategic-partnership/' 
         : lang === 'zh-TW'
-        ? '/zh-TW/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/'
-        : '/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/'} 
-         class="px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white text-xs font-semibold rounded-xl shrink-0 transition-all text-center shadow-lg shadow-purple-500/20">
-        {lang === 'en' ? 'Read Official Report' : '阅读大会报道'}
+        ? '/zh-TW/posts/2026-09-12-four-chapters-sisterhood-and-zju-strategic-partnership/'
+        : '/posts/2026-09-12-four-chapters-sisterhood-and-zju-strategic-partnership/'} 
+         class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold rounded-xl shrink-0 transition-colors text-center">
+        {lang === 'en' ? 'Learn More' : '了解详情'}
       </a>
     </div>
 
@@ -388,55 +388,6 @@ const t = useTranslations(lang);
     </div>
 
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Notice: NACUAA SF Chapter Founding Ceremony Official Report (Oct 18, 2026) -->
-      <div class="bg-gradient-to-br from-purple-950/40 via-slate-900 to-indigo-950/40 border border-purple-500/40 hover:border-purple-400/60 rounded-3xl p-7 flex flex-col justify-between transition-all group shadow-xl shadow-purple-950/20 md:col-span-2">
-        <div>
-          <div class="flex items-center gap-x-3 text-xs text-slate-400 mb-3 flex-wrap gap-y-1">
-            <span class="px-2.5 py-0.5 rounded-full bg-purple-600/20 text-purple-300 border border-purple-500/30 font-semibold">
-              {lang === 'en' ? 'Major Milestone' : lang === 'zh-TW' ? '重大里程碑' : '重大里程碑'}
-            </span>
-            <span class="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">
-              {lang === 'en' ? 'Official Announcement' : lang === 'zh-TW' ? '重磅官宣' : '重磅官宣'}
-            </span>
-            <time datetime="2026-10-18">{lang === 'en' ? 'October 18, 2026' : '2026年10月18日'}</time>
-            <span class="text-purple-400 text-xs font-mono">18:58 PDT · 丙午年九月初八</span>
-          </div>
-          <h3 class="font-bold text-xl md:text-2xl text-white group-hover:text-purple-300 transition-colors leading-snug mb-3">
-            <a href={lang === 'en' 
-              ? '/en/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/' 
-              : lang === 'zh-TW'
-              ? '/zh-TW/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/'
-              : '/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/'}>
-              {lang === 'en' 
-                ? 'NACUAA President Sunny Chen Officially Announces the Founding of San Francisco Chapter'
-                : lang === 'zh-TW'
-                ? '丙午九月初八十八點五十八分陳崢主席宣布北美高校聯盟北加州舊金山分會正式成立'
-                : '丙午九月初八十八点五十八分陈峥主席宣布北美高校联盟北加州旧金山分会正式成立'}
-            </a>
-          </h3>
-          <p class="text-slate-300 text-sm leading-relaxed mb-6">
-            {lang === 'en'
-              ? 'On the eve of Chongyang Festival at CSTU, NACUAA President Sunny Chen officially proclaimed the founding of the SF Chapter and established the regional framework: NorCal Chapter oversees regional coordination, with San Francisco Chapter and Silicon Valley Chapter operating as dual engines.'
-              : lang === 'zh-TW'
-              ? '歲次丙午，九月初八，重陽節前夜。陳崢主席在加州科技大學（CSTU）鄭重宣告舊金山分會成立，並權威定調北加州頂層架構：北加州分會總攬大區全局，旗下統轄舊金山分會與矽谷分會，雙核並進、大區協同！'
-              : '岁次丙午，九月初八，重阳节前夜。陈峥主席在加州科技大学（CSTU）郑重宣告旧金山分会成立，并权威定调北加州顶层架构：北加州分会总揽大区全局，旗下统辖旧金山分会与硅谷分会，双核并进、大区协同！'}
-          </p>
-        </div>
-        <div class="flex items-center justify-between pt-2 border-t border-slate-800/80">
-          <a href={lang === 'en' 
-            ? '/en/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/' 
-            : lang === 'zh-TW'
-            ? '/zh-TW/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/'
-            : '/posts/2026-10-17-nacuaa-san-francisco-chapter-founding-ceremony/'}
-             class="inline-flex items-center gap-x-2 text-xs font-semibold text-purple-400 hover:text-purple-300">
-            <span>{lang === 'en' ? 'Read Full Report' : lang === 'zh-TW' ? '閱讀完整大會報導' : '阅读完整大会报道'}</span>
-            <i class="fa-solid fa-arrow-right text-[10px]"></i>
-          </a>
-          <span class="text-xs text-slate-500 font-sans">
-            {lang === 'en' ? 'CSTU Auditorium · Host: Michael Huo' : '加州科技大学礼堂 · 主持：霍明旭'}
-          </span>
-        </div>
-      </div>
       <!-- Notice 1: AI-native Agent Security & Compliance Part 1 (Sep 1, 2026) -->
       <div class="bg-slate-900/50 border border-slate-800/80 hover:border-blue-500/40 rounded-3xl p-7 flex flex-col justify-between transition-all group">
         <div>
