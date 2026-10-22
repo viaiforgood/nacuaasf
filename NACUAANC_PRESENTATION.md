@@ -156,7 +156,7 @@ graph LR
 ### 🏛️ 组织体系 (Structure)
 - **主办单位**：北美高校联盟北加州分会 (NACUAANC)、北美高校联盟旧金山分会
 - **联合支持**：北美高校联合会总会 (NACUAA)、北美高校联盟北卡分会、南卡分会
-- **公益与技术支持**：VI AI Foundation (唯爱AI基金会) / VI AI for Good Foundation (唯爱AI公益基金会)
+- **公益与技术支持**：VI AI Foundation (唯爱智能基金会) / VI AI for Good Foundation (唯爱智能公益基金会)
 - **媒体伙伴**：North Alpha Post (北美发布)
 
 ---
