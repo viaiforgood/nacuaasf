@@ -142,10 +142,10 @@ const t = useTranslations(lang);
         <h3 class="text-xl font-semibold text-white mb-6 heading-font">{t('about.leadership.title')}</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div class="bg-slate-900/40 border border-slate-900 rounded-2xl p-5 flex items-center gap-x-4">
-            <div class="w-12 h-12 rounded-full bg-blue-600/10 text-blue-400 flex items-center justify-center font-bold text-lg border border-blue-500/10">JC</div>
+            <div class="w-12 h-12 rounded-full bg-blue-600/10 text-blue-400 flex items-center justify-center font-bold text-lg border border-blue-500/10">JZ</div>
             <div>
               <div class="font-semibold text-white text-base">
-                Jane Cheung
+                {lang === 'en' ? 'Jane Zhang (Jane)' : lang === 'zh-TW' ? '張錦（Jane，校友間常稱「兜兜」）' : '张锦（Jane，校友间常称“兜兜”）'}
               </div>
               <div class="text-xs text-slate-400 mt-0.5">{t('about.leadership.president.label')}</div>
               <div class="flex flex-col gap-y-1 mt-1 text-xs">
@@ -653,7 +653,7 @@ const t = useTranslations(lang);
         <div class="font-semibold text-white flex items-center gap-x-2 text-sm">
           <i class="fa-solid fa-user-tie text-blue-400"></i>
           <span>
-            {lang === 'en' ? 'Contact: Jane Cheung (President of NACUAA SF)' : lang === 'zh-TW' ? '聯繫人：Jane Cheung（聯盟舊金山分會會長）' : '联系人：Jane Cheung（联盟旧金山分会会长）'}
+            {lang === 'en' ? 'Contact: Jane Zhang (President of NACUAA SF)' : lang === 'zh-TW' ? '聯繫人：張錦 Jane（校友間常稱「兜兜」，舊金山分會會長）' : '联系人：张锦 Jane（校友间常称“兜兜”，旧金山分会会长）'}
           </span>
         </div>
         <div class="text-slate-300 flex flex-wrap items-center gap-x-4 gap-y-1 pl-6">
